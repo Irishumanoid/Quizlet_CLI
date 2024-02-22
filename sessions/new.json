@@ -1,0 +1,307 @@
+{
+    "MCQ": [
+        {
+            "question": "who are you?",
+            "choices": {
+                "A": "me",
+                "B": "them",
+                "C": "they"
+            },
+            "answer": "A",
+            "num_correct": 1,
+            "num_wrong": 1,
+            "state": 1
+        }
+    ],
+    "FRQ": [
+        {
+            "question": "je vous prie d'accepter l'expression de mes salutations",
+            "answer": "I beg you to accept my goodbyes",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "avaler",
+            "answer": "to swallow",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "avoir faim",
+            "answer": "to be hungry",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "bouffer",
+            "answer": "to eat",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "commander",
+            "answer": "to order",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "consommer",
+            "answer": "to consume",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "d\u00e9couper",
+            "answer": "to cut up",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "d\u00e9geler",
+            "answer": "to defrost",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "d\u00e9graisser",
+            "answer": "to degrease",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "d\u00e9guster",
+            "answer": "to taste",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "dig\u00e9rer",
+            "answer": "to digest",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "donner \u00e0 manger",
+            "answer": "to feed",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "\u00e9goutter",
+            "answer": "to drain",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "emporter",
+            "answer": "to deliver",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "\u00e9plucher",
+            "answer": "to peel",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire blanchir",
+            "answer": "to blanche",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire bouillir",
+            "answer": "to boil",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire chauffer",
+            "answer": "to heat",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire cuire",
+            "answer": "to cook",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire les courses",
+            "answer": "to go food shopping",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "faire r\u00e9duire",
+            "answer": "to reduce (liquid)",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "garnir",
+            "answer": "to garnish",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "go\u00fbter",
+            "answer": "to taste",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "grignoter",
+            "answer": "to nibble, snack",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "griller",
+            "answer": "to grill",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "m\u00e2cher",
+            "answer": "to chew",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "manger sain",
+            "answer": "to eat healthy",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "m\u00e9langer",
+            "answer": "to mix",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "nourrir",
+            "answer": "to feed",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "p\u00e9trir",
+            "answer": "to knead",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "poivrer",
+            "answer": "to pepper",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "pr\u00e9parer",
+            "answer": "to prepare",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "saisir",
+            "answer": "to season",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "saler",
+            "answer": "to salt",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "saupoudrer",
+            "answer": "to sprinkle with",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "sauter",
+            "answer": "to saut\u00e9",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "verser",
+            "answer": "to pour",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        }
+    ],
+    "SAQ": [
+        {
+            "question": "what is the meawning of life",
+            "answer": "hi",
+            "num_correct": 2,
+            "num_wrong": 1,
+            "state": 1
+        },
+        {
+            "question": "what is the meawning of life",
+            "answer": "<pad> meawning, life, meawning</s>",
+            "num_correct": 0,
+            "num_wrong": 1,
+            "state": 2
+        },
+        {
+            "question": "what is the meawning of life",
+            "answer": "<pad> meawning, life, meawning</s>",
+            "num_correct": 0,
+            "num_wrong": 1,
+            "state": 2
+        },
+        {
+            "question": "what is the meawning of life",
+            "answer": " meawning, life, meawning",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        }
+    ]
+}
