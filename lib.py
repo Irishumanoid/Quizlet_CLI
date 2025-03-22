@@ -59,9 +59,6 @@ def main():
     q_test_mcq = Questions(Types.MCQ,  "sessions/" + set_name + ".json")
     q_test_mcq.MCQ("who are you?", ["me", "them", "they"], 0)
 
-    q_test_saq = Questions(Types.SAQ,  "sessions/" + set_name + ".json")
-    q_test_saq.SAQ("what is the meawning of life")
-
     with open("sessions/" + set_name + ".json", "r") as file:
         test_mode = input("choose a test mode: MCQ or FRQ -- ").strip()
         try:
@@ -83,10 +80,3 @@ if __name__ == "__main__":
     main()
     clear_console()
 
-
-#ideas
-'''
--SAQ section that uses AI to get the gist of the response to see if it's correct
--keeping track of answers correct vs wrong
--weighting on questions showed (mastered not showed, needs practice showed the most)
-'''
