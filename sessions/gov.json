@@ -1,0 +1,125 @@
+{
+    "MCQ": [],
+    "FRQ": [
+        {
+            "question": "McCulloch v. Maryland",
+            "answer": "Established supremacy of the U.S. Constitution and federal laws over state laws",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Marbury v. Madison",
+            "answer": "Established the principle of judicial review empowering the Supreme Court",
+            "num_correct": 1,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Schenck v. United States",
+            "answer": "Speech creating a \"clear and present danger\" is not protected by the First Amendment",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Brown v. Board of Education",
+            "answer": "Race",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Baker v. Carr",
+            "answer": "Opened the door to equal protection challenges to redistricting and the development of the \"one person, one vote\" doctrine",
+            "num_correct": 4,
+            "num_wrong": 1,
+            "state": 3
+        },
+        {
+            "question": "Engel v. Vitale",
+            "answer": "School sponsorship of religious activities violates the establishment clause",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Gideon v. Wainwright",
+            "answer": "Guaranteed the right to an attorney for the poor or indigent",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Miranda v. Arizona",
+            "answer": "upon arrest, a suspect has the right to remain silent and the right to consult with a lawyer",
+            "num_correct": 3,
+            "num_wrong": 0,
+            "state": 3
+        },
+        {
+            "question": "Tinker v. Des Moines Independent Community School District",
+            "answer": "Public school students have the right to wear black armbands in school to protest the Vietnam War",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "New York Times Co. v. United States",
+            "answer": "Bolstered the freedom of the press, establishing a \"heavy presumption against prior restraint\"",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Wisconsin v. Yoder",
+            "answer": "Compelling Amish students to attend school past the eighth grade violates the free exercise clause",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Roe v. Wade",
+            "answer": "Extended the right of privacy to a woman's decision to have an abortion",
+            "num_correct": 4,
+            "num_wrong": 0,
+            "state": 3
+        },
+        {
+            "question": "Shaw v. Reno",
+            "answer": "Race cannot be the predominant factor in drawing electoral districts, redistricting subject to strict scrutiny",
+            "num_correct": 2,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "United States v. Lopez",
+            "answer": "Congress may not use the commerce clause to make possession of a gun in a school zone a federal crime",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "McDonald v. Chicago",
+            "answer": "The Second Amendment right to keep and bear arms for self",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Citizens United v. Federal Election Commission (FEC)",
+            "answer": "Political spending by corporations, associations, and labor unions is a form of protected speech under the First Amendment",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        },
+        {
+            "question": "Miranda v. Arizona",
+            "answer": "upon arrest, a suspect has the right to remain silent and the right to consult with a lawyer",
+            "num_correct": 0,
+            "num_wrong": 0,
+            "state": 0
+        }
+    ],
+    "SAQ": []
+}

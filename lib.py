@@ -1,4 +1,4 @@
-from question_types import Questions, Types, Level
+from question_types import Questions, Types, Level, grade_FRQ
 from analyze_prompt import sufficient_answer_criteria
 import emoji
 import json
@@ -15,7 +15,7 @@ def generate_question(data: list, test_mode: str, file_name: str, correct, wrong
     answer = input("answer: \n")
 
     correct_answer = data[test_mode][random_index]["answer"]
-    if answer == correct_answer or (test_mode == "SAQ" and sufficient_answer_criteria(answer, correct_answer)):
+    if answer == correct_answer or (test_mode == "FRQ" and grade_FRQ(response=answer, answer=correct_answer, word_thresh=0.5, tot_thresh=0.4)):
         correct += 1
     elif answer == "q":
         return
@@ -30,6 +30,7 @@ def generate_question(data: list, test_mode: str, file_name: str, correct, wrong
             d[test_mode][random_index]["num_correct"] = correct
 
             percent_correct = correct/(correct + wrong)
+            print(f'percent correct for question is {percent_correct}')
             if percent_correct < 0.5:
                 d[test_mode][random_index]["state"] = Level.NEEDS_PRACTICE.value
             elif percent_correct < 0.8:
@@ -53,11 +54,8 @@ def main():
     set_name = input("Please enter a name for your set (and press q to quit at any time, c to change test mode): ")
 
     q_test_frq = Questions(Types.FRQ, "sessions/" + set_name + ".json")
-    q_test_frq.FRQ("je vous prie d'accepter l'expression de mes salutations", "I beg you to accept my goodbyes")
-    q_test_frq.add_FRQ_questions("frq_sets/frq.txt")
+    q_test_frq.add_FRQ_questions("frq_sets/gov_cases.txt", delimiter="-")
 
-    q_test_mcq = Questions(Types.MCQ,  "sessions/" + set_name + ".json")
-    q_test_mcq.MCQ("who are you?", ["me", "them", "they"], 0)
 
     with open("sessions/" + set_name + ".json", "r") as file:
         test_mode = input("choose a test mode: MCQ or FRQ -- ").strip()
